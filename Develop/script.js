@@ -125,6 +125,12 @@ function generatePassword() {
     password.push(pickChoices);
   }
 
+  // Connects Password To Convert It To A String
+  var ps = password.join("");
+  UserInput(ps);
+  return (ps);
+}
+
 
 // Write password to the #password input
 function writePassword() {
