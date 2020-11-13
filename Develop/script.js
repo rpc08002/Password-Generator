@@ -50,6 +50,13 @@ function generatePassword() {
     confirmLowercase = confirm("Will this contain Lowercase letters?");
   };
 
+  // Else If For Negative Options
+  if (!confirmCharacter && !confirmNumber && !confirmUppercase && !confirmLowercase) {
+    choices = alert("You must choose a criteria!");
+
+  }
+  // First If Statement That User Input To Determine Choices
+  // Else If For Four Positive Choices
 
 // Write password to the #password input
 function writePassword() {
@@ -59,6 +66,3 @@ function writePassword() {
   passwordText.value = password;
 
 }
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
