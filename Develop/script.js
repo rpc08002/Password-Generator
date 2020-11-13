@@ -61,7 +61,19 @@ function generatePassword() {
 
     choices = character.concat(number, alpha, alpha2);
   }
-  
+  // Else If For Three Positive Choices
+  else if (confirmCharacter && confirmNumber && confirmUppercase) {
+    choices = character.concat(number, aplha2);
+  }
+  else if (confirmCharacter && confirmNumber && confirmLowercase) {
+    choices = character.concat(number, alpha);
+  }
+  else if (confirmCharacter && confirmLowercase && confirmUppercase) {
+    choices = character.concat(alpha, alpha2);
+  }
+  else if (confirmNumber && confirmLowercase && confirmUppercase) {
+    choices = number.concat(alpha, alpha2);
+  }
 
 // Write password to the #password input
 function writePassword() {
