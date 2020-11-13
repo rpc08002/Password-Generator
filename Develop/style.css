@@ -6,17 +6,6 @@
 }
 
 /* Body Section Styling */
-html,
-body,
-#wrapper {
-  height: 100%;
-  margin-left: 15%;
-  padding-bottom: 50px;
-  padding-top: 30px;
-  margin-top: 30px;
-  width: 980px;
-}
-
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
@@ -24,18 +13,13 @@ body {
 }
 
 /* Wrapper Section Styling */
-.wrapper {
+#wrapper {
+  height: 100%;
+  margin-left: 15%;
+  padding-bottom: 50px;
   padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-/* Header Section Styling */
-header {
-  text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  margin-top: 30px;
+  width: 980px;
 }
 
 .btn {
