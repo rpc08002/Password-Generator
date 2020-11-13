@@ -24,6 +24,13 @@ aplha2 = alpha.map(toUpper);
 //Assignment Code
 var get = document.querySelector("#generate");
 
+get.addEventListener("click", function() {
+  ps = generatePassword();
+  document.getElementById("password").placeholder =ps;
+});
+
+
+
 
 // Write password to the #password input
 function writePassword() {
