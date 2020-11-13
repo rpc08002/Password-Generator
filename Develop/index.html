@@ -2,12 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- Responsive Layout Meta Tag-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Title -->
     <title>Password Generator</title>
+    <!-- CSS Link -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
+  <!-- Body Section Begins -->
   <body>
+    <!-- Main Content Begins -->
     <div id="wrapper">
       <header>
         <h1>Password Generator</h1>
@@ -15,16 +21,19 @@
       <div id="content">
           <h2>Generate a Password</h2>
           <hr/>
+          <!-- Where Password Is Generated -->
           <textarea readonly id="password" placeholder="Your Secure Password"
             aria-label="Generated Password">
           </textarea>
           <hr/>
-
+        <!-- Buttons -->
         <div id="btn">
           <button id="generate">Generate Password</button>
         </div>
       </div>
     </div>
+
+    <!-- JavaScript Link -->
     <script src="script.js">
       // Pseudo Code for Password-Generator
       // The user will be prompted with a series of prompts for password criteria after clicking
