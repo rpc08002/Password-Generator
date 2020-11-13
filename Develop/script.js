@@ -114,7 +114,12 @@ function generatePassword() {
   // Space Variable For Uppercase Conversion
   else if (confirmUppercase) {
       choices = space.concat(alpha2);
-  }
+  };
+
+  // Password Variable Placeholder For User Generated Amount Of Length
+  var password = [];
+
+  
 
 
 // Write password to the #password input
