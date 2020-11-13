@@ -57,6 +57,11 @@ function generatePassword() {
   }
   // First If Statement That User Input To Determine Choices
   // Else If For Four Positive Choices
+  else if (confirmCharacter && confirmNumber && confirmUppercase && confirmLowercase) {
+
+    choices = character.concat(number, alpha, alpha2);
+  }
+  
 
 // Write password to the #password input
 function writePassword() {
