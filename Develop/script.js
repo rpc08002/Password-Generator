@@ -111,6 +111,11 @@ function generatePassword() {
     choices = alpha;
   }
 
+  // Space Variable For Uppercase Conversion
+  else if (confirmUppercase) {
+      choices = space.concat(alpha2);
+  }
+
 
 // Write password to the #password input
 function writePassword() {
