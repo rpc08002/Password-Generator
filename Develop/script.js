@@ -121,7 +121,7 @@ function generatePassword() {
 
   // Random Selection For Variables
   for (var i = 0; i < enter; i++) {
-    var pickChoies = choices[Math.floor(Math.random() * choices.length)];
+    var pickChoices = choices[Math.floor(Math.random() * choices.length)];
     password.push(pickChoices);
   }
 
