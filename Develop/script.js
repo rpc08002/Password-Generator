@@ -21,15 +21,30 @@ var toUpper = function (x) {
 };
 // creates a variable for uppercase
 aplha2 = alpha.map(toUpper);
+
 //Assignment Code
 var get = document.querySelector("#generate");
 
 get.addEventListener("click", function() {
   ps = generatePassword();
-  document.getElementById("password").placeholder =ps;
+  document.getElementById("password").placeholder = ps;
 });
 
-
+//Start Function To Generate Password
+function generatePassword() {
+  // Asks User Input
+  enter = parseInt(prompt("How many characters would you like your password?  Choose between 8 and 128"));
+  // If Statement For User Validation
+  if (!enter) {
+      alert("This needs a value");
+  } else if (enter < 8 || enter > 128) {
+    // Validate User Input
+    // Start Prompts
+    enter = parseInt(prompt("You must chosose between 8 and 128"));
+  
+  } else {
+    
+  }
 
 
 // Write password to the #password input
