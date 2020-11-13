@@ -8,22 +8,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="card">
-        <div class="card-header">
+      <div id="content">
           <h2>Generate a Password</h2>
-        </div>
-        <div class="card-body">
-          <textarea
-            readonly
-            id="password"
-            placeholder="Your Secure Password"
-            aria-label="Generated Password"
-          ></textarea>
-        </div>
+          <hr/>
+          <textarea readonly id="password" placeholder="Your Secure Password"
+            aria-label="Generated Password">
+          </textarea>
+          <hr/>
+
         <div class="card-footer">
           <button id="generate" class="btn">Generate Password</button>
         </div>
