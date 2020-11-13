@@ -20,7 +20,7 @@ var toUpper = function (x) {
   return x.toUpperCase();
 };
 // creates a variable for uppercase
-aplha2 = alpha.map(toUpper);
+alpha2 = alpha.map(toUpper);
 
 //Assignment Code
 var get = document.querySelector("#generate");
