@@ -17,7 +17,7 @@ space = [];
 // Choices declared outside the if statement so they can be connected after condition
 var choices;
 var toUpper = function (x) {
-  return x.toUpper();
+  return x.toUpperCase();
 };
 // creates a variable for uppercase
 aplha2 = alpha.map(toUpper);
