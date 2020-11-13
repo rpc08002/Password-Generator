@@ -100,6 +100,17 @@ function generatePassword() {
     choices = number.concat(alpha2);
   }
 
+  // Else If For One Positive Option
+  else if (confirmCharacter) {
+    choices = character;
+  }
+  else if (confirmNumber) {
+    choices = number;
+  }
+  else if (confirmLowercase) {
+    choices = alpha;
+  }
+
 
 // Write password to the #password input
 function writePassword() {
