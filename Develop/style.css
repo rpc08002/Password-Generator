@@ -8,15 +8,19 @@
 /* Body Section Styling */
 html,
 body,
-.wrapper {
+#wrapper {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin-left: 15%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  margin-top: 30px;
+  width: 980px;
 }
 
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  margin: 0 auto;
 }
 
 /* Wrapper Section Styling */
@@ -32,49 +36,6 @@ header {
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
-}
-
-
-.card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
-  font-size: 18px;
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 30px 40px;
-}
-
-.card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-.card-body {
-  min-height: 100px;
-}
-
-.card-footer {
-  text-align: center;
-}
-
-.card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
-
-.card-footer::after {
-  content: " ";
-  display: block;
-  clear: both;
 }
 
 .btn {
