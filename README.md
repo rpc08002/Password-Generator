@@ -11,7 +11,7 @@ The webpage will prompt a user a series of prompts and confirms after they selec
 
 ## Mock-Up
 
-The following image shows the web application's appearance and functionality:
+The following image shows the web application's appearance and functionality after the user goes through all of the required prompts:
 
-![demo](./Assets/03-javascript-homework-demo.png)
+![Password Generator](PasswordGenerator.png)
 
