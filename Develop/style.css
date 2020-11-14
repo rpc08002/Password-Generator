@@ -66,6 +66,7 @@ button[disabled] {
   float: right;
 }
 
+/* Password Section Styling */
 #password {
   width: 80%;
   padding-left: 15%;
@@ -77,8 +78,10 @@ button[disabled] {
   padding: 10%;
 }
 
+
+/* Media Queries */
 @media (max-width: 690px) {
-  .btn {
+  #btn {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
@@ -90,7 +93,7 @@ button[disabled] {
 }
 
 @media (max-width: 500px) {
-  .btn {
+  #btn {
     font-size: 0.8rem;
   }
 }
