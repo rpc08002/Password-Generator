@@ -37,6 +37,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  
+}
+
+/* Button Section Styling */
 #btn {
   margin-top:20px;
 }
