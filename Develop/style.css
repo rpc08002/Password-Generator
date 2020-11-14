@@ -22,6 +22,13 @@ body {
   width: 980px;
 }
 
+/* Content Section Styling */
+#content {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #FFFFFF;
+}
+
 #btn {
   margin-top:20px;
 }
