@@ -1,5 +1,5 @@
 # Password Generator
-This project has been deployed to GitHub pages and can be accessed using the links below.  The application emphasizes the use of JavaScript to generate a random password.
+This project has been deployed to GitHub pages and can be accessed using the link below.  The application emphasizes the use of JavaScript to generate a random password.
 
 ## Description
 The following client wanted their application to generate a random password based on certain criteria that is powered by JavaScript.  The purpose of this password is to provide greater security given the client possesses sensitive data.  The password generated will be between 8-128 characters, including the following types: lowercase, uppercase, numeric, and/or special characters.
