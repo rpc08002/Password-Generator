@@ -13,6 +13,6 @@ The webpage will prompt a user a series of prompts and confirms after they selec
 
 The following image shows the web application's appearance and functionality after the user goes through all of the required prompts:
 
-![Password Generator](Assets/PasswordGenerator.png)
+![Password Generator](Assets/PasswordGenerator2.png)
 
 [demo]: https://rpc08002.github.io/Password-Generator/
